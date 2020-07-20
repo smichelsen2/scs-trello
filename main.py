@@ -1,7 +1,7 @@
 import requests
 import json
 
-from settings import API_ROOT, API_KEY, API_TOKEN, HEADERS, PARAMS
+from settings import API_ROOT, HEADERS, PARAMS
 
 # set up base
 boards_url = f"{API_ROOT}/1/members/me/boards"
